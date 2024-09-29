@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE DIRI</title>
+</head>
+
+<body>
+    <h1>Profil Pribadi</h1>
+    <!-- div digunakan untuk membuat sebuah elemen atau kontainer blok umum, yang sering dipakai untuk pengelompokan beberapa elemen -->
+    <div> 
+        <!-- table digunakan untuk membuat tabel -->
+        <table>
+            <!-- tr digunakan untuk membuat baris di dalam tabel -->
+            <tr align="center" >
+                <td><b>Foto Profil</b></td>     <!-- td digunakan untuk membuat sel data di dalam tabel (isi dari sel berupa text yang diberi bold(b))-->
+                <td><b>Vidoe Perkenalan</b></td><!-- td digunakan untuk membuat sel data di dalam tabel (isi dari sel berupa text yang diberi bold(b))-->
+            </tr>
+            <!-- tr digunakan untuk membuat baris di dalam tabel -->
+            <tr>
+                <td>
+                    <!-- img Digunakan untuk menampilkan gambar di halaman web. -->
+                    <img src="profile.png" alt="Foto Profil" width="200">
+                    <!-- Keterangan: Tag ini dipilih karena img adalah tag yang sesuai untuk 
+                    menampilkan gambar statis, serta atribut alt memberikan informasi jika gambar tidak dapat ditampilkan. -->
+                </td>
+                <td>
+                    <!-- video digunakan untuk menyematkan file video yang dapat diputar di dalam halaman web. -->
+                    <video controls width="300" src="video.mp4" type="video">
+                    <!-- Keterangan: Tag ini dipilih karena cocok untuk menampilkan video interaktif. -->
+                </td>
+            </tr>
+        </table>
+        <!-- Keterangan: Tag table memberikan struktur data yang terorganisir dan mudah dibaca. -->
+    </div>
+    <!-- Keterangan: Tag div ini mempermudah pengaturan tata letak gambar dan video secara bersamaan. -->
+
+    <!-- div digunakan untuk membuat sebuah elemen atau kontainer blok umum, yang sering dipakai untuk pengelompokan beberapa element -->
+    <div>
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p>  <!-- p membuat text berupa paragraph -->
+    </div>
+    <!-- Keterangan: Tag ini dipilih untuk mengelompokkan informasi teks agar terstruktur. -->
+
+    <h2>Keterampilan</h2>
+    <!-- table digunakan untuk membuat tabel -->
+    <table>
+         <!-- tr digunakan untuk membuat baris di dalam tabel -->
+        <tr>
+            <th>Keterampilan</th><!-- th digunakan untuk membuat sel header dalam tabel -->
+            <th>Tingkat</th>     <!-- th digunakan untuk membuat sel header dalam tabel -->
+        </tr>
+         <!-- tr digunakan untuk membuat baris di dalam tabel -->
+        <tr>
+            <td>HTML/CSS</td>   <!-- td digunakan untuk membuat sel data di dalam tabel -->
+            <td>Mahir</td>      <!-- td digunakan untuk membuat sel data di dalam tabel -->
+        </tr>
+         <!-- tr digunakan untuk membuat baris di dalam tabel -->
+        <tr>
+            <td>JavaScript</td> <!-- td digunakan untuk membuat sel data di dalam tabel -->
+            <td>Menengah</td>   <!-- td digunakan untuk membuat sel data di dalam tabel -->
+        </tr>
+         <!-- tr digunakan untuk membuat baris di dalam tabel -->
+        <tr>
+            <td>Python</td>     <!-- td digunakan untuk membuat sel data di dalam tabel -->
+            <td>Pemula</td>     <!-- td digunakan untuk membuat sel data di dalam tabel -->
+        </tr>
+    </table>
+    <!-- Keterangan: Tag table dipilih untuk menyajikan data dalam format terstruktur berupa baris dan kolom. -->
+
+    <h2>Hubungi Saya</h2>
+    <!-- form digunakan untuk membuat form input pada halaman web -->
+    <form class="">
+        <!-- Input untuk nama pengirim -->
+        <div> 
+            Nama:
+            <input type="text">
+            <!-- Keterangan: Tag input digunakan untuk menerima masukan teks dari pengguna. Tag ini dipilih karena sesuai dengan fungsinya untuk input data sederhana. -->
+        </div>
+        <!-- Input untuk email pengirim -->
+        <div>
+            Email:
+            <input type="email">
+            <!-- Keterangan: Tag input digunakan untuk menerima masukan teks dari pengguna. Tag input dengan tipe email digunakan agar input dapat divalidasi sebagai email. -->
+        </div>
+        <!-- Input untuk pesan -->
+        Pesan:
+        <div>
+            <textarea id="message" name="message" rows="3"></textarea>
+            <!-- Keterangan: Tag textarea digunakan untuk menyediakan area bagi pengguna memasukkan pesan panjang. Tag ini memungkinkan pengguna memasukkan pesan lebih panjang. -->
+        </div>
+        <!-- Tombol untuk mengirim pesan -->
+        <div>
+            <button type="submit">Kirim Pesan</button>
+            <!-- Keterangan: Tag button digunakanuntuk membuat tombol yang dapat diklik. 
+            Tag ini dipilih karena fungsinya mengirim data form(submit)/memicu suatu tindakan tertentu pada halaman. -->
+        </div>
+    </form>
+     <!-- Keterangan: Tag form dipilih untuk mmelakukan refresh halaman -->
+
+    <h3>Media Sosial:</h3>
+    <!-- div digunakan untuk membuat sebuah elemen atau kontainer blok umum, yang sering dipakai untuk pengelompokan beberapa elemen -->
+    <div>
+        <!-- a digunakan untuk membuat hyperlink, yang mengarahkan pengguna ke URL lain saat di klik -->
+        <a href="https://www.linkedin.com/in/kanjeng-dhimas-cahyoherlina-249155197/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/kanjeeng" target="_blank">GitHub</a> |
+        <a href="https://x.com/jeengkan" target="_blank">Twitter</a>
+        <!-- Keterangan: Tag ini dipilih untuk memberikan akses ke halaman media sosial saya.Target _blank agar ketika user klik link akan membuka tab halaman baru -->
+    </div>
+     <!-- Keterangan: Tag ini dipilih untuk mengelompokkan link berupa hypertext agar terstruktur. -->
+</body>
+</html>
